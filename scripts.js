@@ -10,6 +10,7 @@ function newPassword(possibleChars) {
     console.log(password);
     return password;
 }
+newPassword;
 
 $("#genBtn").click(function() {
     newPassword;
