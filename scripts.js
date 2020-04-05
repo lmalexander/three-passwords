@@ -11,8 +11,6 @@ function newPassword(possibleChars) {
     return password;
 }
 
-newPassword.push(password);
-
-$("genBtn").click(function() {
+$("#genBtn").click(function() {
     newPassword;
-})
+});
