@@ -5,7 +5,7 @@ const possibleChars = [
 ];
 
 function newPassword(possibleChars) {
-    const random = Math.floor(Math.random() * array.length);
+    const random = Math.floor(Math.random() * possibleChars.length);
     const password = possibleChars[random];
     console.log(password);
     return password;
@@ -14,4 +14,5 @@ newPassword;
 
 $("#genBtn").click(function() {
     newPassword;
+    $("#newPW").push(password);
 });
